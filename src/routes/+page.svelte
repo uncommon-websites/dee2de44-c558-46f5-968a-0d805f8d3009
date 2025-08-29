@@ -110,5 +110,5 @@
 	title="Ready to accelerate your AI deployment?"
 	subtitle="Join leading banks"
 	description="Deploy compliant AI applications 6-12 months faster with Avido's automated compliance monitoring and pre-built regulatory frameworks designed for financial services."
-	imageSrc="/generated/image-happy-financial-services-customer-using-.webp"
+	imageSrc="/generated/image-a-confident-professional-financial-servi.webp"
 />
