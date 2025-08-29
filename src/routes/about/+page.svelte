@@ -11,94 +11,89 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Compliance first",
+			description: "We believe that regulatory compliance should accelerate, not hinder, AI innovation in financial services."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Expertise driven",
+			description: "Our deep understanding of financial services regulations sets us apart from generic AI governance platforms."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Customer success",
+			description: "We measure our success by how much faster our customers can deploy compliant AI applications."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Accelerating responsible AI in financial services"
+	subtitle="Building the future of compliant AI deployment"
+	imageSrc="/generated/image-modern-financial-technology-office-envir.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We founded Avido in 2022 when we realized that financial institutions were struggling to deploy AI applications due to complex regulatory requirements. While others focused on building better AI models, we saw the real challenge was compliance.",
+		"Our team combines deep expertise in financial services regulations with cutting-edge AI governance technology. We understand that banks need more than just powerful AI - they need AI that meets regulatory standards from day one.",
+		"From our first customer deployment, we've focused on one question: 'How can we make AI compliance so seamless that it accelerates rather than slows down innovation?' This drives every feature we build and every partnership we form.",
+		"Today, we're proud to help leading financial institutions deploy customer-facing AI applications 6-12 months faster than traditional approaches. Our automated compliance monitoring and pre-built regulatory frameworks are transforming how banks think about AI deployment."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="AI compliance experts with financial services expertise."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Sarah Mitchell",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			bio: "Former Chief Risk Officer at a regional bank, Sarah founded Avido to solve the AI compliance challenges she experienced firsthand.",
+			image: "/generated/image-professional-woman-ai-compliance-leader.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "David Chen",
+			position: "Chief Technology Officer",
+			bio: "AI governance expert with 15 years in financial technology, specializing in regulatory-compliant machine learning systems.",
+			image: "/generated/image-professional-man-financial-technology-ex.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Maria Rodriguez",
+			position: "Head of Compliance",
+			bio: "Former regulatory examiner with deep expertise in financial services AI regulations and risk management frameworks.",
+			image: "/generated/image-professional-woman-risk-management-direc.webp"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	subtitle="Leading AI and fintech investors"
 	stakeholders={[
 		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "Andreessen Horowitz",
+			image: "https://cdn.brandfetch.io/a16z.com/w/400/h/400/logo"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "Bessemer Venture Partners",
+			image: "https://cdn.brandfetch.io/bvp.com/w/400/h/400/logo"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Insight Partners",
+			image: "https://cdn.brandfetch.io/insightpartners.com/w/400/h/400/logo"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to accelerate your AI deployment?"
+	subtitle="Join leading financial institutions"
+	description="Partner with Avido to deploy compliant AI applications 6-12 months faster. Our automated compliance monitoring and regulatory expertise help banks innovate responsibly."
 />

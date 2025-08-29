@@ -48,58 +48,67 @@
 
 <Summary
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Avido accelerates financial services AI deployment by 6-12 months through automated compliance monitoring and proactive risk assessment, helping banks deploy customer-facing AI applications within regulatory deadlines."
+	imageSrc="/generated/image-a-group-of-financial-services-profession.webp"
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Sarah Chen",
+			position: "Chief Risk Officer",
+			company: "Regional Bank",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Avido reduced our AI deployment timeline from 18 months to 6 months.\nTheir automated compliance monitoring gave us confidence to launch customer-facing chatbots without regulatory concerns.",
+			image: "/generated/image-a-professional-woman-banker-in-a-tailore.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Michael Rodriguez",
+			position: "AI Product Manager",
+			company: "Community Credit Union",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The pre-built regulatory frameworks passed our audit in just 3 weeks.\nAvido's proactive risk assessment identified potential issues before they became costly problems.",
+			image: "/generated/image-a-professional-man-risk-manager-in-a-cri.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Jessica Thompson",
+			position: "Head of AI Strategy",
+			company: "Mid-Market Bank",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We deployed 5 compliant AI applications in the time it used to take for one.\nAvido's expertise in financial services regulations is unmatched in the AI governance space.",
+			image: "/generated/image-a-professional-woman-ai-manager-in-a-chi.webp"
 		}
 	]}
 />
 
 <Features
 	title="Features"
-	subtitle="Some features"
+	subtitle="AI compliance made simple"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Automated compliance monitoring",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Continuously monitor AI systems for regulatory compliance with automated audit trails that save the equivalent of one full-time employee per application.",
+			imageSrc: "/generated/image-a-professional-woman-an-ai-compliance-le.webp"
 		},
 		{
-			title: "Data Analysis",
+			title: "Proactive risk assessment",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Identify and address potential risks before they become costly problems with actionable insights and comprehensive risk analysis.",
+			imageSrc: "/generated/image-a-professional-man-a-financial-technolog.webp"
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Pre-built regulatory frameworks",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Deploy customer-facing AI applications 6-12 months faster with frameworks designed specifically for financial services regulations.",
+			imageSrc: "/generated/image-a-professional-woman-a-risk-management-d.webp"
 		}
 	]}
 />
 <AboutTeaser />
-<CallToAction />
+<CallToAction 
+	title="Ready to accelerate your AI deployment?"
+	subtitle="Join leading banks"
+	description="Deploy compliant AI applications 6-12 months faster with Avido's automated compliance monitoring and pre-built regulatory frameworks designed for financial services."
+	imageSrc="/generated/image-happy-financial-services-customer-using-.webp"
+/>
