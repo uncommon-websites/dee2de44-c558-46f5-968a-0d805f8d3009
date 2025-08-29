@@ -6,25 +6,52 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	title="Deploy compliant AI 6-12 months faster"
+	subtitle="Join leading financial institutions using Avido to accelerate AI deployment while meeting regulatory requirements from day one."
+	centered={true}
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "Chief Risk Officer",
+			imageSrc: "/generated/image-a-professional-woman-banker-in-a-tailore.webp"
+		},
+		{
+			name: "Michael Rodriguez",
+			position: "AI Product Manager",
+			imageSrc: "/generated/image-a-professional-man-risk-manager-in-a-cri.webp"
+		},
+		{
+			name: "Jessica Thompson",
+			position: "Head of AI Strategy",
+			imageSrc: "/generated/image-a-professional-woman-ai-manager-in-a-chi.webp"
+		},
+		{
+			name: "David Park",
+			position: "Compliance Director",
+			imageSrc: "/generated/image-a-professional-man-compliance-officer-in.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/wellsfargo.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/pnc.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/regions.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/navyfederal.org/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
@@ -54,7 +81,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
@@ -75,5 +101,5 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
